@@ -22,7 +22,7 @@
     </header>
     
     <nav>
-        <h1 class="offscreen">Navigation menu</h1>
+        <h2 class="offscreen">Navigation menu</h2>
         <ul>
             <li><a href="#About">About the movie</a></li>
             <li><a href="#time">Time</a></li>
@@ -35,6 +35,7 @@
 
     <main>
         <section>
+            <h2 class="offscreen">The Rise of Skywalker</h2>
             <aside>
                 C-3PO is a protocol droid specializing in human-cyborg relations. He was constructed by Anakin Skywalker prior to the year <time>32 BBY (Before the Battle of Yavin)</time>.
             </aside>
@@ -44,23 +45,23 @@
             <article>
                 <h3 class="About">About the movie</h3>
                 <p>Star Wars, the Rise of Skywalker, is my absolute favorite Star Wars movie. This is because it heavily features the very best droid of all time: C-3PO.</p>
-                <p>C-3PO is and has always been voiced by <span itemscope itemtype="http://schema.org/Person">Anthony Daniels (<a name="itemprop" href="https://twitter.com/ADaniels3PO" itemprop="url">@ADaniels3PO</a>).</span></p>
+                <p>C-3PO is and has always been voiced by <span itemscope itemtype="http://schema.org/Person">Anthony Daniels (<a id="itemprop" href="https://twitter.com/ADaniels3PO" itemprop="url">@ADaniels3PO</a>).</span></p>
                 <figure>
                     <img src="images/C-3PO.png" alt="An image of the best droid ever.">
                     <figcaption>The droid, the myth, the legend</figcaption>
                 </figure>
-                <p>The movie was released in the United States on <time name="time" datetime="2019-12-20">December 20, 2019</time></p>
+                <p>The movie was released in the United States on <span id="time"><time datetime="2019-12-20">December 20, 2019</time></span></p>
             </article>
             <article>
                 <h3>The Movie Trailer</h3>
-                <video name="video" width="320" height="240" controls="controls">
+                <video id="video" width="320" height="240" controls="controls">
                     <source src="images/trailer.mp4" type="video/mp4" />
                     <track src="images/trailer.vtt" kind="subtitles" srclang="en" default>
                     Your browser does not support the video element.
                 </video>            
                  <p>As you can see, this is not the whole trailer for Star Wars: The Rise of Skywalker. However, it is far and away the most important part. In this trailer, C-3PO is made to sound as though he is about to die. This is why, presumably, he is taking one last look at all of his friends! The rest of the trailer is cool, but I just think it's most important that we know what is up with our favorite protocol droid at all times.</p>
             </article>
-            <span name="details">
+            <span id="details">
                 <details>
                     <summary>My favorite part of Star Wars: The Rise of Skywalker (spoilers)</summary>
                     <p>C-3P0 doesn't die! I thought that he would, but he doesn't.</p>
@@ -70,7 +71,7 @@
             <article>
                 <h3>About you</h3>
                 <p>I know that I'm a big star wars fan, but probably you are too if you're reading my site! Why not take a picture of the number one star wars fan in your household so we can see how diverse we all are!</p>
-                <video name="webcam" id="video" width="640" height="480" autoplay></video>
+                <video id="webcam"  width="640" height="480" autoplay></video>
                 <button id="snap">Snap Photo</button>
                 <canvas id="canvas" width="640" height="480"></canvas>
 
